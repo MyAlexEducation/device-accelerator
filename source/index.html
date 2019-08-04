@@ -9,20 +9,25 @@
 </head>
 <body>
 <header>
-  <h1>Smart Device</h1>
-  <a class="logo">
-    <img src="">
-  </a>
-  <ul class="contact-nav">
-    <li><a href="">info@sd.ru</a></li>
-    <li><a href="">+7 (495) 000 52 52</a></li>
-    <li><a href="">Заказать звонок</a></li>
+  <h1 class="visually-hidden">Smart Device</h1>
+  <div>
+    <a class="logo">
+      <img src="">
+    </a>
+    <p>
+      Smart Device
+      <span>умные технологии</span>
+    </p>
+  </div>
+  <ul class="contacts-list">
+    <li><a href="mailto:">info@sd.ru</a></li>
+    <li>+7 (495) 000 52 52</li>
+    <li><a>Заказать звонок</a></li>
   </ul>
   <section class="lid">
     <h2>Печатные платы</h2>
     <p>производство и монтаж, поставка комплектующих, блоков и модулей</p>
     <a href="#">Получить бесплатную консультацию</a>
-    <img src="">
   </section>
 </header>
 <main>
@@ -37,15 +42,16 @@
       <li>
         <h3>Крупные поставщики</h3>
         <p>Нашими поставщиками являются такие крупные мировые компании как: OSRAM,
-          CREE, HOLGLITRONIC, REFOND. Сотрудничество с такими компаниями обеспичивает хорошее качество нашей продукции.</p>
+          CREE, HOLGLITRONIC, REFOND. Сотрудничество с такими компаниями обеспичивает хорошее качество нашей
+          продукции.</p>
       </li>
       <li>
         <h3>Полная конфиденциальность</h3>
-        <p>По желанию клиента  мы обеспечиваем полную конфеденциальность.</p>
+        <p>По желанию клиента мы обеспечиваем полную конфеденциальность.</p>
       </li>
       <li>
         <h3>Персонализация стоимости</h3>
-        <p>Мы  подбираем определенную фабрику, поставщиков, вид доставки, чтобы установить
+        <p>Мы подбираем определенную фабрику, поставщиков, вид доставки, чтобы установить
           ту цену, которая Вас устраивает.</p>
       </li>
     </ul>
@@ -63,8 +69,8 @@
   <section class="goods-and-services">
     <h2>Service Device предлагает следующие товары и услуги</h2>
     <ul>
-      <li><a href="#">Производство  печатных плат</a></li>
-      <li><a href="#">Монтаж печатных  плат</a></li>
+      <li><a href="#">Производство печатных плат</a></li>
+      <li><a href="#">Монтаж печатных плат</a></li>
       <li><a href="#">Комплектующие для светотехники</a></li>
     </ul>
   </section>
@@ -76,7 +82,7 @@
       <textarea placeholder="Ваш вопрос"></textarea>
       <button type="submit">Задать вопрос</button>
       <input type="checkbox" id="feedback-processing-consent" name="consent">
-      <label for="feedback-processing-consent">Я согласен на обработку  персональных данных</label>
+      <label for="feedback-processing-consent">Я согласен на обработку персональных данных</label>
     </form>
   </section>
 </main>
@@ -84,6 +90,10 @@
   <div>
     <a class="logo">
       <img src="">
+      <p>
+        Service Device
+        <span>умные технологии</span>
+      </p>
     </a>
     <ul class="social-nav">
       <li><a href=""><span>Фейсбук</span></a></li>
@@ -120,5 +130,17 @@
     </ul>
   </section>
 </footer>
+<section class="modal-feedback">
+  <h2>Закажите звонок</h2>
+  <p>Оставьте контакты, мы проконсультируем вас бесплатно в удобное время</p>
+  <form method="post" action="">
+    <input type="text" placeholder="Имя">
+    <input type="text" placeholder="Телефон">
+    <textarea placeholder="Ваш вопрос"></textarea>
+    <button type="submit">Отправить</button>
+    <input type="checkbox" id="modal-feedback-processing-consent" name="consent">
+    <label for="modal-feedback-processing-consent">Я согласен на обработку персональных данных</label>
+  </form>
+</section>
 </body>
 </html>
