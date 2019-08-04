@@ -12,7 +12,7 @@
   <h1 class="visually-hidden">Smart Device</h1>
   <div>
     <a class="logo">
-      <img src="">
+      <img src="img/logo.svg" width="52" height="52" alt="логотип">
     </a>
     <p>
       Smart Device
@@ -20,15 +20,16 @@
     </p>
   </div>
   <ul class="contacts-list">
-    <li><a href="mailto:">info@sd.ru</a></li>
-    <li>+7 (495) 000 52 52</li>
-    <li><a>Заказать звонок</a></li>
+    <li><a href="mailto:"><span>info@sd.ru</span></a></li>
+    <li><span>+7 (495) 000 52 52</span></li>
+    <li><a><span>Заказать звонок</span></a></li>
   </ul>
   <section class="lid">
     <h2>Печатные платы</h2>
     <p>производство и монтаж, поставка комплектующих, блоков и модулей</p>
     <a href="#">Получить бесплатную консультацию</a>
   </section>
+  <span>Скролл вниз</span>
 </header>
 <main>
   <section class="advantages">
@@ -75,11 +76,15 @@
     </ul>
   </section>
   <section class="feedback">
-    <h2></h2>
+    <h2>Остались вопросы? Задайте их нам!</h2>
+    <p>Мы проконсультируем Вас бесплатно</p>
     <form method="post" action="">
-      <input type="text" placeholder="Имя">
-      <input type="text" placeholder="Телефон">
-      <textarea placeholder="Ваш вопрос"></textarea>
+      <input type="text" placeholder="Имя" id="feedback-name">
+      <label for="feedback-name" class="visually-hidden">Ваше имя</label>
+      <input type="text" placeholder="Телефон" id="feedback-phone">
+      <label for="feedback-phone" class="visually-hidden">Ваш телефон</label>
+      <textarea id="feedback-question" placeholder="Ваш вопрос"></textarea>
+      <label for="feedback-question" class="visually-hidden">Задайте ваш вопрос</label>
       <button type="submit">Задать вопрос</button>
       <input type="checkbox" id="feedback-processing-consent" name="consent">
       <label for="feedback-processing-consent">Я согласен на обработку персональных данных</label>
@@ -89,16 +94,16 @@
 <footer>
   <div>
     <a class="logo">
-      <img src="">
+      <img src="img/logo.svg" width="52" height="52" alt="логотип">
       <p>
         Service Device
         <span>умные технологии</span>
       </p>
     </a>
     <ul class="social-nav">
-      <li><a href=""><span>Фейсбук</span></a></li>
-      <li><a href=""><span>Одноклассники</span></a></li>
-      <li><a href=""><span>Вконтакте</span></a></li>
+      <li><a href=""><span class="visually-hidden">Фейсбук</span></a></li>
+      <li><a href=""><span class="visually-hidden">Одноклассники</span></a></li>
+      <li><a href=""><span class="visually-hidden">Вконтакте</span></a></li>
     </ul>
   </div>
   <section class="cite-nav">
@@ -134,9 +139,12 @@
   <h2>Закажите звонок</h2>
   <p>Оставьте контакты, мы проконсультируем вас бесплатно в удобное время</p>
   <form method="post" action="">
-    <input type="text" placeholder="Имя">
-    <input type="text" placeholder="Телефон">
-    <textarea placeholder="Ваш вопрос"></textarea>
+    <input type="text" placeholder="Имя" id="modal-feedback-name">
+    <label for="modal-feedback-name" class="visually-hidden">Ваше имя</label>
+    <input type="text" placeholder="Телефон" id="modal-feedback-phone">
+    <label for="modal-feedback-phone" class="visually-hidden">Ваш телефон</label>
+    <textarea id="modal-feedback-question" placeholder="Ваш вопрос"></textarea>
+    <label for="modal-feedback-question" class="visually-hidden">Задайте ваш вопрос</label>
     <button type="submit">Отправить</button>
     <input type="checkbox" id="modal-feedback-processing-consent" name="consent">
     <label for="modal-feedback-processing-consent">Я согласен на обработку персональных данных</label>
