@@ -1,10 +1,20 @@
 //screen size
-$mobile-width:;
-$tablet-width:;
-$desktop-width:;
+$content-mobile-width: 290px; //padding 15px
+$mobile-width: 350px;
+$content-tablet-width: 720px; //padding 25px
+$tablet-width: 770px;
+$content-desktop-width: 1420px; //padding 35px
+$desktop-width: 1920px;
 //font
 $font-white: #ffffff;
 $font-gray: #666666;
-$font-black: #1B2D37;
+$font-gray-2: #788891;
+$font-dark-blue: #1B2D37;
+$font-blue: #00B2FF;
 //background
 $background-white: #ffffff;
+$background-dark-blue: #1B2D37;
+$background-lite-blue: #00B2FF;
+//border
+$border-white: #ffffff;
+$border-blue: #00B2FF;
