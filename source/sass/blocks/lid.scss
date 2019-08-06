@@ -1,6 +1,5 @@
 .lid {
   width: 100%;
-  margin-top: 215px;
 }
 
 .lid__title {
@@ -64,7 +63,6 @@
 
 @media (max-width: $tablet-width) {
   .lid {
-    margin-top: 100px;
     padding-left: 63px;
   }
 
@@ -99,7 +97,6 @@
 
 @media (max-width: $mobile-width) {
   .lid {
-    margin-top: 225px;
     padding-left: 0;
   }
 
