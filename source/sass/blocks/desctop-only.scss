@@ -1,0 +1,13 @@
+.desktop-alternative-text {
+  display: none;
+}
+
+@media (max-width: $tablet-width) {
+  .desktop-text {
+    display: none;
+  }
+
+  .desktop-alternative-text {
+    display: inline;
+  }
+}

@@ -18,7 +18,7 @@
       <span class="page-title__addition">умные технологии</span>
     </h1>
     <a href="mailto:" class="page-header__link page-header__link--mail">info@sd.ru</a>
-    <a class="page-header__link page-header__link--phone">+7 (495) 000 52 52</a>
+    <a href="#" class="page-header__link page-header__link--phone">+7 (495) 000 52 52</a>
     <a class="page-header__link page-header__link--button button">Заказать звонок</a>
     <section class="lid page-header__lid">
       <h2 class="lid__title">Печатные платы</h2>
@@ -83,15 +83,19 @@
       </li>
     </ul>
   </section>
-  <section class="about-company">
-    <h2>О компании</h2>
-    <p>Мы поставляем электронные комплектующие, производим печатные платы и предоставляем мировые
+  <section class="about-company page-main__about-company container">
+    <h2 class="about-company__title">О компании</h2>
+    <p class="about-company__text">Мы поставляем электронные комплектующие, производим печатные платы и предоставляем
+      мировые
       технологии с 1997 года. Выполняем срочные заказы и пилотные образцы до 10 дней.</p>
-    <p>Наши поставщики - мировые производители электронных компонентов: OSRAM, CREE, HOLGLITRONIC,
+    <p class="about-company__text about-company__text--last">Наши поставщики - мировые производители электронных
+      компонентов: OSRAM, CREE, HOLGLITRONIC,
       REFOND. Печатные платы и комплектующие Service Devices применяются на предприятиях Российских
-      Железных Дорог (РЖД), РоссАвтоПрома (ВАЗ, АвтоГАЗ), МинАтома, СпецМедТехники. Среди наших клиентов
-      крупнейшие Производители светотехники России.</p>
-    <a href="#">Подробнее</a>
+      Железных Дорог<span class="desktop-alternative-text">..</span>
+      <span class="desktop-text">(РЖД), РоссАвтоПрома (ВАЗ, АвтоГАЗ), МинАтома, СпецМедТехники. Среди наших клиентов
+        крупнейшие Производители светотехники России.</span>
+    </p>
+    <a href="#" class="about-company__link about-company__link--button button">Подробнее</a>
   </section>
   <section class="goods-and-services">
     <h2>Service Device предлагает следующие товары и услуги</h2>
@@ -104,7 +108,7 @@
   <section class="feedback">
     <h2>Остались вопросы? Задайте их нам!</h2>
     <p>Мы проконсультируем Вас бесплатно</p>
-    <form method="post" action="">
+    <form method="post" action="#">
       <input type="text" placeholder="Имя" id="feedback-name">
       <label for="feedback-name" class="visually-hidden">Ваше имя</label>
       <input type="text" placeholder="Телефон" id="feedback-phone">
@@ -164,7 +168,7 @@
 <section class="modal-feedback">
   <h2>Закажите звонок</h2>
   <p>Оставьте контакты, мы проконсультируем вас бесплатно в удобное время</p>
-  <form method="post" action="">
+  <form method="post" action="#">
     <input type="text" placeholder="Имя" id="modal-feedback-name">
     <label for="modal-feedback-name" class="visually-hidden">Ваше имя</label>
     <input type="text" placeholder="Телефон" id="modal-feedback-phone">
