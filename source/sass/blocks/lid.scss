@@ -17,7 +17,7 @@
   max-width: 680px;
   padding-top: 0;
   margin-top: 0;
-  margin-bottom: 60px;
+  margin-bottom: 42px;
   position: relative;
   padding-left: 94px;
   font-size: 22px;
@@ -45,6 +45,7 @@
   padding-right: 46px;
   padding-top: 20px;
   padding-bottom: 18px;
+  display: table;
   background-color: $background-lite-blue;
   border: none;
   font-size: 16px;
@@ -54,7 +55,6 @@
 .lid__link--button:hover,
 .lid__link--button:focus {
   color: $font-dark-blue;
-  border: 1px solid $border-white;
 }
 
 .lid__link--button--short-text {
