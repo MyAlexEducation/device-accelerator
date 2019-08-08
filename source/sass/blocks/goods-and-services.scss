@@ -1,0 +1,181 @@
+.goods-and-services {
+  background-color: $background-dark-blue;
+  padding-top: 90px;
+  padding-bottom: 67px;
+}
+
+.goods-and-services__list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.goods-and-services__title {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 0;
+  margin-bottom: 50px;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 51px;
+  color: $font-white;
+}
+
+.goods-and-services__item {
+  width: 370px;
+  min-height: 620px;
+  margin-right: 30px;
+  margin-bottom: 46px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.goods-and-services__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.goods-and-services__item:nth-child(1) {
+  background-image: url("../img/servise-desktop-1.png");
+}
+
+.goods-and-services__item:nth-child(2) {
+  background-image: url("../img/servise-desktop-2.png");
+}
+
+.goods-and-services__item:nth-child(3) {
+  background-image: url("../img/servise-desktop-3.png");
+}
+
+.goods-and-services__link {
+  position: relative;
+  display: block;
+  padding-left: 46px;
+  padding-top: 53px;
+  padding-right: 170px;
+  height: calc(100% - 53px);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: $font-white;
+  text-decoration: none;
+  cursor: pointer;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 63px;
+    height: 63px;
+    background-image: url("../img/Vector.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $background-lite-blue;
+  }
+
+  &:hover,
+  &:focus {
+    outline: 3px solid $border-blue;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .goods-and-services {
+    padding-top: 50px;
+  }
+
+  .goods-and-services__list {
+    width: 100%;
+  }
+
+  .goods-and-services__title {
+    margin-bottom: 50px;
+    padding-right: 100px;
+    font-size: 32px;
+    line-height: 140.62%;
+  }
+
+  .goods-and-services__item {
+    width: 100%;
+    margin-right: 0;
+    min-height: 256px;
+    margin-bottom: 46px;
+  }
+
+  .goods-and-services__item:nth-child(1) {
+    background-image: url("../img/servise-tablet-1.png");
+  }
+
+  .goods-and-services__item:nth-child(2) {
+    background-image: url("../img/servise-tablet-2.png");
+  }
+
+  .goods-and-services__item:nth-child(3) {
+    background-image: url("../img/servise-tablet-3.png");
+  }
+
+  .goods-and-services__link {
+    padding-left: 46px;
+    padding-top: 41px;
+    padding-right: 500px;
+    height: calc(100% - 41px);
+    font-size: 20px;
+    line-height: 30px;
+    color: $font-white;
+
+    &:hover,
+    &:focus {
+      outline-width: 2px;
+    }
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .goods-and-services {
+    padding-top: 52px;
+  }
+
+  .goods-and-services__title {
+    margin-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 0;
+    font-weight: normal;
+    font-size: 28px;
+  }
+
+  .goods-and-services__item {
+    min-height: 256px;
+    margin-bottom: 30px;
+  }
+
+  .goods-and-services__item:nth-child(1) {
+    background-image: url("../img/servise-mobile-1.png");
+  }
+
+  .goods-and-services__item:nth-child(2) {
+    background-image: url("../img/servise-mobile-2.png");
+  }
+
+  .goods-and-services__item:nth-child(3) {
+    background-image: url("../img/servise-mobile-3.png");
+  }
+
+  .goods-and-services__link {
+    padding-left: 36px;
+    padding-top: 19px;
+    padding-right: 100px;
+    height: calc(100% - 19px);
+
+    &:hover,
+    &:focus {
+      outline-width: 1px;
+    }
+  }
+}

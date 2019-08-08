@@ -9,7 +9,7 @@
 }
 
 .page-main__about-company {
-  margin-bottom: 90px;
+  margin-bottom: 60px;
 }
 
 @media (max-width: $tablet-width) {
@@ -21,6 +21,10 @@
   .page-main__advantages {
     margin-bottom: 27px;
   }
+
+  .page-main__about-company {
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: $mobile-width) {
@@ -30,5 +34,9 @@
 
   .page-main__advantages {
     margin-bottom: 38px;
+  }
+
+  .page-main__about-company {
+    margin-bottom: 15px;
   }
 }
