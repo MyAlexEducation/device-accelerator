@@ -6,11 +6,39 @@
   padding-right: 35px;
 }
 
+.desktop-alternative-text {
+  display: none;
+}
+
+.tablet-alternative-text {
+  display: none;
+}
+
+.tablet-text {
+  display: none;
+}
+
+.mobile-text {
+  display: none;
+}
+
 @media (max-width: $tablet-width) {
   .container {
     max-width: $content-tablet-width;
     padding-left: 25px;
     padding-right: 25px;
+  }
+
+  .tablet-text {
+    display: inline;
+  }
+
+  .desktop-text {
+    display: none;
+  }
+
+  .tablet-alternative-text {
+    display: inline;
   }
 }
 
@@ -19,5 +47,21 @@
     max-width: $content-mobile-width;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .mobile-text {
+    display: inline;
+  }
+
+  .tablet-text {
+    display: none;
+  }
+
+  .tablet-alternative-text {
+    display: none;
+  }
+
+  .mobile-alternative-text {
+    display: none;
   }
 }

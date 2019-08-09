@@ -57,10 +57,6 @@
   color: $font-dark-blue;
 }
 
-.lid__link--button--short-text {
-  display: none;
-}
-
 @media (max-width: $tablet-width) {
   .lid {
     padding-left: 63px;
@@ -124,10 +120,5 @@
     padding-left: 0;
     padding-right: 0;
     width: 100%;
-    display: none;
-  }
-
-  .lid__link--button--short-text {
-    display: block;
   }
 }
