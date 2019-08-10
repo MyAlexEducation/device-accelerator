@@ -1,16 +1,47 @@
+.logo__title {
+  margin-top: 0;
+  padding-top: 7px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  color: $font-white;
+}
+
+.logo__addition {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: $font-gray-2;
+}
+
 .logo {
+  display: flex;
+  align-items: flex-start;
+  margin-right: auto;
+}
+
+.logo__image {
   padding-left: 3px;
   margin-right: 16px;
 }
 
 @media (max-width: $tablet-width) {
-  .logo {
+  .logo__image {
     padding-left: 0;
   }
 }
 
 @media (max-width: $mobile-width) {
-  .logo {
+  .logo__image {
     width: 38px;
+  }
+
+  .logo__title {
+    display: none;
   }
 }
