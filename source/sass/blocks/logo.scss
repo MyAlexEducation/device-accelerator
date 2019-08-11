@@ -1,3 +1,10 @@
+.logo {
+  max-width: 220px;
+  display: flex;
+  align-items: flex-start;
+  margin-right: auto;
+}
+
 .logo__title {
   margin-top: 0;
   padding-top: 7px;
@@ -9,6 +16,10 @@
   color: $font-white;
 }
 
+.logo__title--black {
+  color: $font-dark;
+}
+
 .logo__addition {
   display: block;
   font-family: "Roboto", sans-serif;
@@ -17,12 +28,6 @@
   font-size: 12px;
   line-height: 14px;
   color: $font-gray-2;
-}
-
-.logo {
-  display: flex;
-  align-items: flex-start;
-  margin-right: auto;
 }
 
 .logo__image {
