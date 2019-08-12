@@ -35,21 +35,22 @@
   margin-bottom: 46px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .goods-and-services__item:nth-child(3n) {
   margin-right: 0;
 }
 
-.goods-and-services__item:nth-child(1) {
+.goods-and-services__item--production {
   background-image: url("../img/servise-desktop-1.png");
 }
 
-.goods-and-services__item:nth-child(2) {
+.goods-and-services__item--assembly {
   background-image: url("../img/servise-desktop-2.png");
 }
 
-.goods-and-services__item:nth-child(3) {
+.goods-and-services__item--components {
   background-image: url("../img/servise-desktop-3.png");
 }
 
@@ -110,15 +111,15 @@
     margin-bottom: 46px;
   }
 
-  .goods-and-services__item:nth-child(1) {
+  .goods-and-services__item--production {
     background-image: url("../img/servise-tablet-1.png");
   }
 
-  .goods-and-services__item:nth-child(2) {
+  .goods-and-services__item--assembly {
     background-image: url("../img/servise-tablet-2.png");
   }
 
-  .goods-and-services__item:nth-child(3) {
+  .goods-and-services__item--components {
     background-image: url("../img/servise-tablet-3.png");
   }
 
@@ -156,15 +157,15 @@
     margin-bottom: 30px;
   }
 
-  .goods-and-services__item:nth-child(1) {
+  .goods-and-services__item--production {
     background-image: url("../img/servise-mobile-1.png");
   }
 
-  .goods-and-services__item:nth-child(2) {
+  .goods-and-services__item--assembly {
     background-image: url("../img/servise-mobile-2.png");
   }
 
-  .goods-and-services__item:nth-child(3) {
+  .goods-and-services__item--components {
     background-image: url("../img/servise-mobile-3.png");
   }
 
