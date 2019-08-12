@@ -2,6 +2,11 @@
   background-color: $background-dark-blue;
   padding-top: 90px;
   padding-bottom: 67px;
+  max-width: $content-desktop-width;
+}
+
+.goods-and-services__wrapper {
+  max-width: $content-desktop-width;
 }
 
 .goods-and-services__list {
@@ -29,7 +34,8 @@
 }
 
 .goods-and-services__item {
-  width: 370px;
+  box-sizing: border-box;
+  width: calc(33% - 20px);
   min-height: 620px;
   margin-right: 30px;
   margin-bottom: 46px;
