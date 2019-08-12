@@ -1,7 +1,8 @@
 .page-header {
-  background-image: url("../img/header-desktop.jpg");
-  background-position: top center;
+  background-image: url("../img/desctop-plate.png"), url("../img/header-desktop.jpg");
+  background-position: left calc(50% + 426px) top 119px, top center;
   background-repeat: no-repeat;
+  background-size: auto, cover;
   background-color: $background-dark-blue;
   color: $font-white;
   padding-top: 33px;
@@ -121,7 +122,8 @@
   .page-header {
     padding-top: 20px;
     padding-bottom: 160px;
-    background-image: url("../img/header-tablet.jpg");
+    background-image: url("../img/tablet-plate.png"), url("../img/header-tablet.jpg");
+    background-position: left calc(50% + 256px) top 113px, top center;
   }
 
   .page-header__link {
@@ -168,7 +170,8 @@
 
 @media (max-width: $mobile-width) {
   .page-header {
-    background-image: url("../img/header-mobile.jpg");
+    background-image: url("../img/mobile-plate.png"), url("../img/header-mobile.jpg");
+    background-position: left calc(50% + 14px) top 92px, top center;
     padding-top: 17px;
     padding-bottom: 70px;
   }
@@ -176,14 +179,14 @@
   .page-header__link--mail::before {
     width: 26px;
     height: 19px;
-    left: 163px;
+    left: 63px;
     top: 8px;
   }
 
   .page-header__link--phone::before {
     width: 24px;
     height: 24px;
-    left: 124px;
+    left: 24px;
     top: 5px;
   }
 
