@@ -2,7 +2,7 @@
 
 var overlay = document.querySelector('.overlay');
 var feedbackPopup = document.querySelector('.modal-feedback');
-var feedbackPopupOpen = document.querySelector('.feedback-popup-open');
+var feedbackPopupOpen = document.querySelector('.js-feedback-popup-open');
 var feedbackPopupClose = document.querySelector('.modal-feedback__close');
 
 feedbackPopupOpen.addEventListener('clic', function () {
