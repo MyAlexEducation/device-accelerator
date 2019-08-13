@@ -58,7 +58,7 @@
   }
 
   &:focus {
-    box-shadow: 0px 0px 0px 1px #ffffff inset;
+    box-shadow: 0 0 0 1px #ffffff inset;
   }
 
   &:active + label {
@@ -95,8 +95,8 @@
 }
 
 .feedback__label--checkbox {
-  padding-left: 36px;
-  width: calc(50% - 40px);
+  padding-left: 40px;
+  width: calc(50% - 57px);
   padding-top: 12px;
   font-size: 14px;
   line-height: 16px;

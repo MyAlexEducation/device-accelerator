@@ -116,7 +116,7 @@
       <form class="feedback__form" method="post" action="#">
         <input class="feedback__input" type="text" placeholder="Имя" id="feedback-name" required="">
         <label for="feedback-name" class="visually-hidden">Ваше имя</label>
-        <input class="feedback__input" type="text" placeholder="Телефон" id="feedback-phone" required="">
+        <input class="feedback__input" type="tel" placeholder="Телефон" id="feedback-phone" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" required="">
         <label for="feedback-phone" class="visually-hidden">Ваш телефон</label>
         <textarea class="feedback__input feedback__input--textarea" id="feedback-question" placeholder="Ваш вопрос" required=""></textarea>
         <label for="feedback-question" class="visually-hidden">Задайте ваш вопрос</label>
