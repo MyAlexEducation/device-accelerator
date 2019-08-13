@@ -114,14 +114,14 @@
       <h2 class="feedback__title">Остались вопросы? Задайте их нам!</h2>
       <p class="feedback__text">Мы проконсультируем Вас бесплатно</p>
       <form class="feedback__form" method="post" action="#">
-        <input class="feedback__input" type="text" placeholder="Имя" id="feedback-name">
+        <input class="feedback__input" type="text" placeholder="Имя" id="feedback-name" required="">
         <label for="feedback-name" class="visually-hidden">Ваше имя</label>
-        <input class="feedback__input" type="text" placeholder="Телефон" id="feedback-phone">
+        <input class="feedback__input" type="text" placeholder="Телефон" id="feedback-phone" required="">
         <label for="feedback-phone" class="visually-hidden">Ваш телефон</label>
-        <textarea class="feedback__input feedback__input--textarea" id="feedback-question" placeholder="Ваш вопрос"></textarea>
+        <textarea class="feedback__input feedback__input--textarea" id="feedback-question" placeholder="Ваш вопрос" required=""></textarea>
         <label for="feedback-question" class="visually-hidden">Задайте ваш вопрос</label>
         <button class="feedback__input feedback__input--button button" type="submit">Задать вопрос</button>
-        <input class="visually-hidden feedback__checkbox" type="checkbox" id="feedback-processing-consent" name="consent">
+        <input class="visually-hidden feedback__checkbox" type="checkbox" id="feedback-processing-consent" name="consent" checked="">
         <label class="feedback__label feedback__label--checkbox" for="feedback-processing-consent">Я согласен на
           обработку персональных данных</label>
       </form>
