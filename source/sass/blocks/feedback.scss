@@ -51,6 +51,7 @@
   background-color: fade-out($background-white, 0.9);
   outline: none;
   border: none;
+  border-radius: 0;
   color: inherit;
 
   &::placeholder {
@@ -80,6 +81,7 @@
   cursor: pointer;
   font-size: 14px;
   line-height: 16px;
+  border-radius: 5px;
 
   &:hover,
   &:focus {
