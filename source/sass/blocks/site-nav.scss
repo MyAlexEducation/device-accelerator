@@ -14,6 +14,13 @@
   color: $font-dark-blue;
 }
 
+.site-nav__switch {
+  position: absolute;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
 .site-nav__list {
   margin-top: 0;
   margin-bottom: 0;
