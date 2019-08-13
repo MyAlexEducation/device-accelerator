@@ -1,5 +1,8 @@
 .banner {
-  width: 100%;
+  margin-top: -562px;
+  margin-bottom: 348px;
+  max-width: $content-desktop-width;
+  color: $font-white;
 }
 
 .banner__title {
@@ -60,7 +63,9 @@
 
 @media (max-width: $tablet-width) {
   .banner {
-    padding-left: 63px;
+    margin-top: -498px;
+    margin-bottom: 175px;
+    padding-left: 87px;
   }
 
   .banner__title {
@@ -95,14 +100,17 @@
 
 @media (max-width: $mobile-width) {
   .banner {
-    padding-left: 0;
+    margin-top: -360px;
+    margin-bottom: 87px;
+    padding-left: 15px;
   }
 
   .banner__title {
     margin-bottom: 28px;
-    max-width: 500px;
+    max-width: 100%;
+    width: 100%;
     font-size: 40px;
-    line-height: 47px
+    line-height: 47px;
   }
 
   .banner__info {
@@ -110,6 +118,7 @@
     margin-bottom: 42px;
     font-size: 16px;
     line-height: 156.8%;
+    max-width: 100%;
   }
 
   .banner__info::before {
@@ -121,6 +130,7 @@
     padding-top: 18px;
     padding-left: 0;
     padding-right: 0;
+    max-width: 100%;
     width: 100%;
   }
 }

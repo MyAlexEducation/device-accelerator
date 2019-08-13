@@ -1,6 +1,6 @@
 .page-main {
   background-image: url("../img/main-desctop.png");
-  background-position: center -30px;
+  background-position: center 532px;
   background-repeat: no-repeat;
 }
 
@@ -15,7 +15,6 @@
 @media (max-width: $tablet-width) {
   .page-main {
     background-image: url("../img/main-tablet.png");
-    background-position: center -30px;
   }
 
   .page-main__advantages {

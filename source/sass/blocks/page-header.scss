@@ -1,4 +1,6 @@
 .page-header {
+  box-sizing: border-box;
+  min-height: 878px;
   background-image: url("../img/desctop-plate.png"), url("../img/header-desktop.jpg");
   background-position: left calc(50% + 426px) top 119px, top center;
   background-repeat: no-repeat;
@@ -6,13 +8,13 @@
   background-color: $background-dark-blue;
   color: $font-white;
   padding-top: 33px;
-  padding-bottom: 275px;
 }
 
 .page-header__container {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
+  max-width: $content-desktop-width;
 }
 
 .page-header__link {
@@ -91,10 +93,6 @@
   border-color: $border-blue;
 }
 
-.page-header__banner {
-  margin-top: 208px;
-}
-
 .page-header__scroll-prompt {
   outline: none;
   border: none;
@@ -103,7 +101,7 @@
   transform: rotate(-90deg);
   opacity: 0.5;
   left: 0;
-  bottom: -165px;
+  bottom: -640px;
   font-size: 14px;
   line-height: 16px;
   text-decoration: none;
@@ -118,6 +116,7 @@
 
 @media (max-width: $tablet-width) {
   .page-header {
+    min-height: 686px;
     padding-top: 20px;
     padding-bottom: 160px;
     background-image: url("../img/tablet-plate.png"), url("../img/header-tablet.jpg");
@@ -157,10 +156,6 @@
     display: none;
   }
 
-  .page-header__banner {
-    margin-top: 100px;
-  }
-
   .page-header__scroll-prompt {
     display: none;
   }
@@ -168,6 +163,7 @@
 
 @media (max-width: $mobile-width) {
   .page-header {
+    min-height: 645px;
     background-image: url("../img/mobile-plate.png"), url("../img/header-mobile.jpg");
     background-position: left calc(50% + 14px) top 92px, top center;
     padding-top: 17px;
@@ -186,9 +182,5 @@
     height: 24px;
     left: 24px;
     top: 5px;
-  }
-
-  .page-header__banner {
-    margin-top: 225px;
   }
 }
