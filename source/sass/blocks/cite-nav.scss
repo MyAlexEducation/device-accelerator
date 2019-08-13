@@ -1,8 +1,8 @@
-.cite-nav {
+.site-nav {
   width: 43%;
 }
 
-.cite-nav__title {
+.site-nav__title {
   margin-top: 0;
   margin-bottom: 20px;
   font-family: "Roboto Condensed", sans-serif;
@@ -14,7 +14,7 @@
   color: $font-dark-blue;
 }
 
-.cite-nav__list {
+.site-nav__list {
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
@@ -24,12 +24,12 @@
   padding-left: 0;
 }
 
-.cite-nav__item {
+.site-nav__item {
   width: calc(50% - 65px);
   padding-right: 65px;
 }
 
-.cite-nav__link {
+.site-nav__link {
   font-size: 15px;
   line-height: 25px;
   color: $font-dark-blue;
@@ -37,30 +37,30 @@
   text-decoration: none;
 }
 
-.cite-nav__link:hover,
-.cite-nav__link:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
   color: $font-blue;
   opacity: 1;
 }
 
 @media (max-width: $tablet-width) {
-  .cite-nav {
+  .site-nav {
     width: 355px;
     padding-left: 10px;
     margin-left: auto;
   }
 
-  .cite-nav__item {
+  .site-nav__item {
     width: 100%;
   }
 
-  .cite-nav__item:nth-child(2n) {
+  .site-nav__item:nth-child(2n) {
     order: 2;
   }
 }
 
 @media (max-width: $mobile-width) {
-  .cite-nav {
+  .site-nav {
     width: 100%;
     padding-left: 0;
     padding-bottom: 25px;
@@ -68,7 +68,7 @@
     border-bottom: 1px solid fade-out($border-dark-gray, 0.2);
   }
 
-  .cite-nav__title {
+  .site-nav__title {
     width: $content-mobile-width;
     padding-left: 15px;
     padding-right: 15px;
@@ -76,7 +76,7 @@
     margin-right: auto;
   }
 
-  .cite-nav__list {
+  .site-nav__list {
     width: $content-mobile-width;
     padding-left: 15px;
     padding-right: 15px;
@@ -84,7 +84,7 @@
     margin-right: auto;
   }
 
-  .cite-nav__item {
+  .site-nav__item {
     width: 100%;
   }
 }
