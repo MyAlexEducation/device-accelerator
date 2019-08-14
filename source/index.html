@@ -128,9 +128,15 @@
     <div class="container goods-and-services__wrapper">
       <h2 class="goods-and-services__title">Service Device предлагает следующие товары и услуги</h2>
       <ul class="goods-and-services__list">
-        <li class="goods-and-services__item goods-and-services__item--production"><a class="goods-and-services__link" href="#">Производство печатных плат</a></li>
-        <li class="goods-and-services__item goods-and-services__item--assembly"><a class="goods-and-services__link" href="#">Монтаж печатных плат</a></li>
-        <li class="goods-and-services__item goods-and-services__item--components"><a class="goods-and-services__link" href="#">Комплектующие для светотехники</a></li>
+        <li class="goods-and-services__item goods-and-services__item--production"><a class="goods-and-services__link"
+                                                                                     href="#">Производство печатных
+          плат</a></li>
+        <li class="goods-and-services__item goods-and-services__item--assembly"><a class="goods-and-services__link"
+                                                                                   href="#">Монтаж печатных плат</a>
+        </li>
+        <li class="goods-and-services__item goods-and-services__item--components"><a class="goods-and-services__link"
+                                                                                     href="#">Комплектующие для
+          светотехники</a></li>
       </ul>
     </div>
   </section>
@@ -141,7 +147,8 @@
       <form class="feedback__form" method="post" action="#">
         <input class="feedback__input" type="text" placeholder="Имя" id="feedback-name" required>
         <label for="feedback-name" class="visually-hidden">Ваше имя</label>
-        <input class="feedback__input" type="tel" placeholder="Телефон" id="feedback-phone" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" required>
+        <input class="feedback__input" type="tel" placeholder="Телефон" id="feedback-phone"
+               pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" required>
         <label for="feedback-phone" class="visually-hidden">Ваш телефон</label>
         <textarea class="feedback__input feedback__input--textarea" id="feedback-question"
                   placeholder="Ваш вопрос" required></textarea>
@@ -218,10 +225,14 @@
   <section class="copyright">
     <div class="container page-footer__wrapper">
       <h2 class="visually-hidden">Copyright info</h2>
-      <a class="copyright__link copyright__link--rights" href="#">Все права защищены</a></li>
-      <a class="copyright__link copyright__link--date" href="#">1999-2018 SD Service Devices</a>
-      <a class="copyright__link copyright__link--conditions" href="#">Условия конфиденциальности</a>
-      <a class="copyright__link copyright__link--develop" href="#">Developed by wow studio </a>
+      <div class="copyright__wrapper">
+        <a class="copyright__link copyright__link--rights" href="#">Все права защищены</a></li>
+        <a class="copyright__link copyright__link--date" href="#">1999-2018 SD Service Devices</a>
+      </div>
+      <div class="copyright__wrapper">
+        <a class="copyright__link copyright__link--conditions" href="#">Условия конфиденциальности</a>
+        <a class="copyright__link copyright__link--develop" href="#">Developed by wow studio </a>
+      </div>
     </div>
   </section>
 </footer>
@@ -233,13 +244,17 @@
   <form class="modal-feedback__form" method="post" action="#">
     <input class="modal-feedback__input" type="text" placeholder="Имя" id="modal-feedback-name" required>
     <label for="modal-feedback-name" class="visually-hidden">Ваше имя</label>
-    <input class="modal-feedback__input" type="tel" placeholder="Телефон" id="modal-feedback-phone" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" required>
+    <input class="modal-feedback__input" type="tel" placeholder="Телефон" id="modal-feedback-phone"
+           pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" required>
     <label for="modal-feedback-phone" class="visually-hidden">Ваш телефон</label>
-    <textarea class="modal-feedback__input modal-feedback__input--textarea" id="modal-feedback-question" placeholder="Ваш вопрос" required></textarea>
+    <textarea class="modal-feedback__input modal-feedback__input--textarea" id="modal-feedback-question"
+              placeholder="Ваш вопрос" required></textarea>
     <label for="modal-feedback-question" class="visually-hidden">Задайте ваш вопрос</label>
     <button class="modal-feedback__input modal-feedback__input--button button" type="submit">Отправить</button>
-    <input class="visually-hidden modal-feedback__checkbox" type="checkbox" id="modal-feedback-processing-consent" name="consent" checked>
-    <label class="modal-feedback__label modal-feedback__label--checkbox" for="modal-feedback-processing-consent">Я согласен на обработку персональных данных</label>
+    <input class="visually-hidden modal-feedback__checkbox" type="checkbox" id="modal-feedback-processing-consent"
+           name="consent" checked>
+    <label class="modal-feedback__label modal-feedback__label--checkbox" for="modal-feedback-processing-consent">Я
+      согласен на обработку персональных данных</label>
   </form>
 </section>
 <script src="js/script.js"></script>
