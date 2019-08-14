@@ -23,6 +23,10 @@
   max-width: 985px;
 }
 
+.about-company__desktop-alternative-text {
+  display: none;
+}
+
 .about-company__text:last-of-type {
   margin-bottom: 37px;
 }
@@ -70,6 +74,14 @@
   .about-company__text {
     margin-top: 0;
     margin-bottom: 18px;
+  }
+
+  .about-company__desktop-tex {
+    display: none;
+  }
+
+  .about-company__desktop-alternative-text {
+    display: inline;
   }
 
   .about-company__text:last-of-type {

@@ -42,6 +42,10 @@
   text-decoration: none;
 }
 
+.banner__mobile-text {
+  display: none;
+}
+
 .banner__link--button {
   max-width: 530px;
   margin-left: 94px;
@@ -105,7 +109,7 @@
     padding-left: 15px;
   }
 
-  .banner__title {
+  .itle {
     margin-bottom: 28px;
     max-width: 100%;
     width: 100%;
@@ -119,6 +123,14 @@
     font-size: 16px;
     line-height: 156.8%;
     max-width: 100%;
+  }
+
+  .banner__mobile-text {
+    display: inline;
+  }
+
+  .banner__mobile-alternative-text {
+    display: none;
   }
 
   .banner__info::before {
