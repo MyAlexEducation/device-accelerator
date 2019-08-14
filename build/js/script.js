@@ -41,5 +41,5 @@ if (contactsOfficeText.classList.contains('contacts-office__text--no-js')) {
 
 contactsOfficeSwith.addEventListener('click', function () {
   contactsOfficeSwith.classList.toggle('contacts-office__switch--close');
-  contactsOfficeText.classList.toggle('contacts-office__text__close');
+  contactsOfficeText.classList.toggle('contacts-office__text--close');
 });
