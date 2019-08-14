@@ -16,6 +16,7 @@
 }
 
 .site-nav__switch {
+  display: none;
   position: absolute;
   border: none;
   outline: none;
@@ -93,6 +94,10 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .site-nav__switch {
+    display: block;
   }
 
   .site-nav__list {
