@@ -4,38 +4,14 @@
   background-repeat: no-repeat;
 }
 
-.page-main__advantages {
-  margin-bottom: 73px;
-}
-
-.page-main__about-company {
-  margin-bottom: 60px;
-}
-
 @media (max-width: $tablet-width) {
   .page-main {
     background-image: url("../img/main-tablet.png");
-  }
-
-  .page-main__advantages {
-    margin-bottom: 27px;
-  }
-
-  .page-main__about-company {
-    margin-bottom: 30px;
   }
 }
 
 @media (max-width: $mobile-width) {
   .page-main {
     background-image: none;
-  }
-
-  .page-main__advantages {
-    margin-bottom: 38px;
-  }
-
-  .page-main__about-company {
-    margin-bottom: 15px;
   }
 }

@@ -1,5 +1,6 @@
 .about-company {
   max-width: 1098px;
+  margin-bottom: 60px;
   padding-left: 322px;
   padding-bottom: 20px;
   background-image: url("../img/2005.png");
@@ -52,6 +53,7 @@
 @media (max-width: $tablet-width) {
   .about-company {
     max-width: 528px;
+    margin-bottom: 30px;
     padding-left: 192px;
     padding-bottom: 20px;
     background-image: url("../img/2005-tablet.png");
@@ -81,6 +83,7 @@
 
 @media (max-width: $mobile-width) {
   .about-company {
+    margin-bottom: 15px;
     padding-left: 15px;
     padding-bottom: 20px;
     background-image: none;
