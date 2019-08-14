@@ -1,0 +1,76 @@
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  max-width: $content-desktop-width;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.button {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  border: 1px solid $border-white;
+  border-radius: 5px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $background-dark-blue;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.block {
+  display: block;
+}
+
+.no-display {
+  display: none;
+}
+
+.navigation__switch {
+  position: absolute;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+@media (max-width: $tablet-width) {
+  .container {
+    max-width: $content-tablet-width;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .container {
+    max-width: $content-mobile-width;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
