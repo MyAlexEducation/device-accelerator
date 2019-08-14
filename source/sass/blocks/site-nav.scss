@@ -1,4 +1,5 @@
 .site-nav {
+  position: relative;
   width: 43%;
 }
 
@@ -18,7 +19,18 @@
   position: absolute;
   border: none;
   outline: none;
+  width: 16px;
+  height: 16px;
+  top: 5px;
+  right: 20px;
+  background-image: url("../img/close.svg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: transparent;
+}
+
+.site-nav__switch--close {
+  background-image: url("../img/open.svg");
 }
 
 .site-nav__list {
@@ -89,6 +101,14 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .site-nav__list--close {
+    display: none;
+  }
+
+  .site-nav__list--no-js {
+    display: block;
   }
 
   .site-nav__item {
