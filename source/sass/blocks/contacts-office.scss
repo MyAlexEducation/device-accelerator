@@ -35,13 +35,20 @@
   background-image: url("../img/open.svg");
 }
 
-.contacts-office__text p {
+.contacts-office__text a {
+  display: block;
+  text-decoration: none;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 15px;
   line-height: 25px;
   color: $font-dark-blue;
   opacity: 0.5;
+}
+
+.contacts-office__text a:hover,
+.contacts-office__text a:focus {
+  color: $font-blue;
 }
 
 @media (max-width: $tablet-width) {

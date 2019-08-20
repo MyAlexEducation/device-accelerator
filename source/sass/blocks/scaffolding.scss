@@ -52,13 +52,6 @@ input[type="radio"].visually-hidden {
   display: none;
 }
 
-.navigation__switch {
-  position: absolute;
-  outline: none;
-  border: none;
-  background-color: transparent;
-}
-
 @media (max-width: $tablet-width) {
   .container {
     max-width: $content-tablet-width;

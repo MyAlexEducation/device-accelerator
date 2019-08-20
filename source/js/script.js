@@ -11,7 +11,7 @@ var siteNavSwith = document.querySelector('.site-nav__switch');
 var contactsOfficeText = document.querySelector('.contacts-office__text');
 var contactsOfficeSwith = document.querySelector('.contacts-office__switch');
 
-feedbackPopupOpen.addEventListener('clic', function () {
+feedbackPopupOpen.addEventListener('click', function () {
   feedbackPopup.classList.remove('no-display');
   overlay.classList.remove('no-display');
 });
